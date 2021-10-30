@@ -1,41 +1,94 @@
 @import "variables";
+@import "all.css";
+
+/* Classes */
 
 .back {
-    color: white;
+    color: #ffffff;
+}
+
+.content {
+    padding-top: 210px;
 }
 
 .notch-padding {
+    background-color: black;
     display: block;
     width: 428px;
     height: 35px;
 }
 
-.login-banner {
-    padding-top: 55px;
+/* Main navbar styling */
+
+header {
     background-color: black;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 998;
 }
 
-.login-banner > .media-background-container {
+.banner-top {
+    padding-top: 35px;
+    background-color: black;
+    min-height: 65px;
+}
+
+.banner-bottom {
+    padding-top: 30px;
     height: 140px;
 }
 
-.media-background-container  > img:first-child {
-    filter: brightness(50%);
-}
-
-.login-banner-title-bar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.login-banner-title {
-    color: white;
+.banner-logo {
+    display: block;
+    margin-left: auto;
+    height: 85px;
 }
 
 .login-banner-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    margin-top: 30px;
+    height: 85px;
+    // margin-top: 30px;
+}
+
+.banner-logo-text {
+    color: white;
+}
+
+.media-background {
+    filter: brightness(50%);
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Bottom nav styling */
+
+footer {
+    background-color: black;
+    height: 65px;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 997;
+}
+
+.nav-link > .fas {
+    color: white;
+}
+
+.nav-link.active > .fas {
+    color: $brightGold;
+}
+
+.nav-link > .fas:hover {
+    color: $brightGold50;
 }

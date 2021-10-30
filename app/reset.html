@@ -10,26 +10,34 @@
   <meta name="author" content="Group 3">
 
   <link rel="stylesheet" href="https://cdn.ucf.edu/athena-framework/v1.1.0/css/framework.min.css">
-  <link rel="stylesheet" href="../css/all.css">
   <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 
 <body>
-    <div class="container ">
-      <div class="row login-banner">
-        <div class="col-2"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
-        <div class="col col-8 login-banner-title-bar">
-          <h5 class="text-center text-uppercase login-banner-title">UCF Downtown</h5>
+  <header>
+    <div class="banner-top">
+      <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+        <div class="col col-3"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+        <div class="col col-6 text-center">
+          <a class="btn" href="login.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
         </div>
-        <div class="col col-12 media-background-container">
-          <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
-          <img src="../img/TheTab_sm.png" alt="" class="login-banner-logo">
-        </div>
+        <div class="col col-3"></div>
+      </nav>
+    </div>
+
+    <div class="media-background-container">
+      <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
+      <div class="row banner-bottom">
+        <div class="col col-12"><img src="../img/TheTab_sm.png" alt="" class="login-banner-logo"></div>
       </div>
+    </div>
+  </header>
+
+    <div class="container content">
       <div class="row pt-5">
         <div class="col">
-            <h1>Reset Password</h1>
+            <h1 class="heading-underline">Reset Password</h1>
           </div>
       </div>
     </div>
