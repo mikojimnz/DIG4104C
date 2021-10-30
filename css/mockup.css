@@ -1,0 +1,48 @@
+/* HTML Elements */
+body {
+  background-color: #6b6b6b; }
+
+/* Meta Classes */
+.proto-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 481px;
+  height: 971px; }
+
+@media (min-width: 1000px) {
+  .proto-wrapper {
+    margin-top: 5%;
+    width: 481px; } }
+.proto-frame {
+  width: 481px;
+  height: 971px;
+  position: absolute;
+  z-index: 999;
+  pointer-events: none; }
+
+.proto-content {
+  width: 428px;
+  height: 926px;
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  z-index: 0; }
+
+.notch-padding {
+  background-color: magenta;
+  opacity: 0.5;
+  display: block;
+  width: 428px;
+  height: 35px;
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  z-index: 1; }
+
+/* Classes */
+.container {
+  background-color: #adadad; }
+
+/*# sourceMappingURL=mockup.css.map */
