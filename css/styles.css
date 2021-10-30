@@ -4,8 +4,26 @@
 .back {
   color: #ffffff; }
 
-.content {
-  padding-top: 210px; }
+.container {
+  padding-bottom: 85px; }
+
+.dot {
+  height: 125px;
+  width: 125px;
+  border: 3px solid #ffca06;
+  border-radius: 50%;
+  display: inline-block; }
+
+.dot:hover {
+  background-color: #ffca06; }
+
+.dot > i {
+  color: black;
+  position: relative;
+  top: 32px; }
+
+.dot:hover > i {
+  color: white; }
 
 .notch-padding {
   background-color: black;
@@ -16,16 +34,16 @@
 /* Main navbar styling */
 header {
   background-color: black;
-  color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 998; }
+  color: white; }
 
 .banner-top {
   padding-top: 35px;
   background-color: black;
-  min-height: 65px; }
+  min-height: 65px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998; }
 
 .banner-bottom {
   padding-top: 30px;
@@ -47,6 +65,9 @@ header {
 
 .media-background {
   filter: brightness(50%); }
+
+.media-background-container {
+  padding-top: 90px; }
 
 .navbar-toggler {
   margin-left: auto;

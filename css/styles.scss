@@ -7,8 +7,30 @@
     color: #ffffff;
 }
 
-.content {
-    padding-top: 210px;
+.container {
+    padding-bottom: 85px;
+}
+
+.dot {
+    height: 125px;
+    width: 125px;
+    border: 3px solid $brightGold;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover {
+    background-color: $brightGold;
+}
+
+.dot > i {
+    color: black;
+    position: relative;
+    top: 32px;
+}
+
+.dot:hover > i {
+    color: white;
 }
 
 .notch-padding {
@@ -23,17 +45,17 @@
 header {
     background-color: black;
     color: white;
-
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 998;
 }
 
 .banner-top {
     padding-top: 35px;
     background-color: black;
     min-height: 65px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 998;
 }
 
 .banner-bottom {
@@ -61,6 +83,10 @@ header {
 
 .media-background {
     filter: brightness(50%);
+}
+
+.media-background-container {
+    padding-top: 90px;
 }
 
 .navbar-toggler {
