@@ -3,4 +3,28 @@
   width: 428px;
   height: 35px; }
 
+.login-banner {
+  padding-top: 55px;
+  background-color: black; }
+
+.login-banner > .media-background-container {
+  height: 140px; }
+
+.media-background-container > img:first-child {
+  filter: brightness(50%); }
+
+.login-banner-title-bar {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.login-banner-title {
+  color: white; }
+
+.login-banner-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  margin-top: 30px; }
+
 /*# sourceMappingURL=styles.css.map */
