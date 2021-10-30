@@ -1,6 +1,11 @@
+/* Colors */
+@import url(all.css);
 /* HTML Elements */
 body {
   background-color: #6b6b6b; }
+
+footer {
+  padding: 15px; }
 
 /* Meta Classes */
 .proto-wrapper {
@@ -11,10 +16,6 @@ body {
   width: 481px;
   height: 971px; }
 
-@media (min-width: 1000px) {
-  .proto-wrapper {
-    margin-top: 5%;
-    width: 481px; } }
 .proto-frame {
   width: 481px;
   height: 971px;
@@ -41,6 +42,10 @@ body {
   left: 27px;
   z-index: 1; }
 
+@media (min-width: 1000px) {
+  .proto-wrapper {
+    margin-top: 5%;
+    width: 481px; } }
 /* Classes */
 .container {
   background-color: #adadad; }

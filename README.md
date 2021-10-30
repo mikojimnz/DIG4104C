@@ -1,2 +1,22 @@
 # DIG4104C
-Workshop 1 – UCF Mobile 
+**Workshop 1 – UCF Mobile**
+
+Made with HTML, SASS, and JavaScript.
+
+## Frameworks & Dependencies 
+- [Athena Framework](https://github.com/UCF/Athena-Framework)
+- [Font Awsome](https://fontawesome.com)
+- [jquery](https://github.com/jquery/jquery)
+- [tether](https://github.com/shipshapecode/tether)
+
+## Usage
+**View on Github Pages**
+
+[View the demo](https://mikojimnz.github.io/DIG4104C)
+
+**Download the Repo**
+
+Download the repo from the `main` branch.
+
+## Contributing
+Please check the [Project Boards](https://github.com/mikojimnz/DIG4104C/projects/1) for the latest project roadmap.

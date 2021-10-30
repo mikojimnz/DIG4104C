@@ -1,8 +1,13 @@
 @import "variables";
+@import "all.css";
 
 /* HTML Elements */
 body {
     background-color: #6b6b6b;
+}
+
+footer {
+    padding: 15px;
 }
 
 /* Meta Classes */
@@ -16,17 +21,10 @@ body {
     height: 971px;
 }
 
-@media (min-width: $breakpoint-mobile) {
-    .proto-wrapper {
-        margin-top: 5%;
-        width: 481px;
-    }
-}
-
 .proto-frame {
     width: 481px;
     height: 971px;
-    
+
     position: absolute;
     z-index: 999;
 
@@ -55,6 +53,13 @@ body {
     top: 23px;
     left: 27px;
     z-index: 1;
+}
+
+@media (min-width: $breakpoint-mobile) {
+    .proto-wrapper {
+        margin-top: 5%;
+        width: 481px;
+    }
 }
 
 /* Classes */

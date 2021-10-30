@@ -1,6 +1,95 @@
+/* Colors */
+@import url(all.css);
+/* Classes */
+.back {
+  color: #ffffff; }
+
+.container {
+  padding-bottom: 85px; }
+
+.dot {
+  height: 125px;
+  width: 125px;
+  border: 3px solid #ffca06;
+  border-radius: 50%;
+  display: inline-block; }
+
+.dot:hover {
+  background-color: #ffca06; }
+
+.dot > i {
+  color: black;
+  position: relative;
+  top: 32px; }
+
+.dot:hover > i {
+  color: white; }
+
 .notch-padding {
+  background-color: black;
   display: block;
   width: 428px;
   height: 35px; }
+
+/* Main navbar styling */
+header {
+  background-color: black;
+  color: white; }
+
+.banner-top {
+  padding-top: 35px;
+  background-color: black;
+  min-height: 65px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998; }
+
+.banner-bottom {
+  padding-top: 30px;
+  height: 140px; }
+
+.banner-logo {
+  display: block;
+  margin-left: auto;
+  height: 85px; }
+
+.login-banner-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85px; }
+
+.banner-logo-text {
+  color: white; }
+
+.media-background {
+  filter: brightness(50%); }
+
+.media-background-container {
+  padding-top: 90px; }
+
+.navbar-toggler {
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* Bottom nav styling */
+footer {
+  background-color: black;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 997; }
+
+.nav-link > .fas {
+  color: white; }
+
+.nav-link.active > .fas {
+  color: #ffca06; }
+
+.nav-link > .fas:hover {
+  color: rgba(255, 202, 6, 0.5); }
 
 /*# sourceMappingURL=styles.css.map */
