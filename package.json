@@ -1,0 +1,23 @@
+{
+  "name": "dig4104c",
+  "version": "0.0.1",
+  "description": "UCF Mobile App Prototype",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikojimnz/DIG4104C.git"
+  },
+  "author": "Group 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikojimnz/DIG4104C/issues"
+  },
+  "homepage": "https://github.com/mikojimnz/DIG4104C#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "ucf-athena-framework": "^1.1.0"
+  }
+}
