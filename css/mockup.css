@@ -12,7 +12,7 @@ footer {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 2%;
   width: 481px;
   height: 971px; }
 
@@ -42,10 +42,6 @@ footer {
   left: 27px;
   z-index: 1; }
 
-@media (min-width: 1000px) {
-  .proto-wrapper {
-    margin-top: 5%;
-    width: 481px; } }
 /* Classes */
 .container {
   background-color: #adadad; }

@@ -25,6 +25,9 @@
 .dot:hover > i {
   color: white; }
 
+.font-size-lg {
+  font-size: 1.75rem !important; }
+
 .notch-padding {
   background-color: black;
   display: block;
@@ -73,6 +76,9 @@ header {
   margin-left: auto;
   padding-top: 0;
   padding-bottom: 0; }
+
+.no-image-padding {
+  padding-top: 115px; }
 
 /* Bottom nav styling */
 footer {

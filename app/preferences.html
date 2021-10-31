@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UCF Mobile – Home</title>
-  <meta name="description" content="UCF Mobile Home">
+  <title>UCF Mobile – Preferences</title>
+  <meta name="description" content="UCF Mobile Preferences">
   <meta name="author" content="Group 3">
 
   <link rel="stylesheet" href="https://cdn.ucf.edu/athena-framework/v1.1.0/css/framework.min.css">
@@ -19,7 +19,7 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
-          <div class="col col-2"></div>
+          <div class="col col-2"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
           <div class="col col-8 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
@@ -46,7 +46,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="preferences.html" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i> Settings</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i> Settings</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownSettings">
                   <a class="dropdown-item" href="#">Edit Favorites</a>
                   <a class="dropdown-item" href="preferences.html#campus">Change Campus</a>
@@ -58,48 +58,81 @@
           </div>
         </nav>
       </div>
-
-      <div class="media-background-container">
-        <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
-        <div class="row banner-bottom">
-          <div class="col col-4"><img src="../img/TheTab_sm.png" alt="" class="banner-logo"></div>
-          <div class="col col-8">
-              <h1 class="banner-title">Amanda</h1>
-              <h5 class="banner-subtitle">UCF Downtown</h5>
-          </div>
-        </div>
-      </div>
     </header>
 
-    <div class="container">
+    <div class="container no-image-padding">
 
       <div class="row">
-        <div class="alert alert-warning alert-dismissible fade show w-100" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <h2>Traffic Reported</h2>
-          <h5>47 Minute Commute</h5>
-          <br>
-          <button class="btn btn-secondary btn-sm">Learn More</button>
-        </div>
-        <div class="alert alert-info alert-dismissible fade show w-100" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <h2>Withdraw Deadline Approaching</h2>
-          <h5>October 29</h5>
-        </div>
-      </div>
+        <div class="col">
+          <h1 class="heading-underline">Preferences</h1>
 
-      <div class="row">
-        <div class="col col-12 p-3"><h1 class="heading-underline">Favorites</h1></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-book fa-4x"></i></span><p>myUCF</p></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-mail-bulk fa-4x"></i></span><p>Knights Email</p></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-calculator fa-4x"></i></span><p>Grades</p></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-utensil-spoon fa-4x"></i></span><p>Dining</p></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-car fa-4x"></i></span><p>Parking</p></div>
-        <div class="col col-6 text-center"><span class="dot"><i class="fas fa-newspaper fa-4x"></i></span><p>News</p></div>
+          <div class="pt-5 pb-5">
+            <h2 class="heading-underline" id="campus">Change Campus</h2>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownCampus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select Campus
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownCampus">
+                <a class="dropdown-item" href="#">Main</a>
+                <a class="dropdown-item" href="#">Downtown</a>
+                <a class="dropdown-item" href="#">Rosen</a>
+                <a class="dropdown-item" href="#">Daytona</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pb-5">
+            <h2 class="heading-underline" id="location">Location Preferences</h2>
+            <p>Allow location services.</p>
+            <button type="button" class="btn btn-success btn-toggle">Enabled</button>
+          </div>
+          
+          <div class="pb-5">
+            <h2 class="heading-underline" id="notification">Notification Preferences</h2>
+            <h4 class="pt-4">Emergency Notifications</h4>
+            <p>Emergency alerts and notifications.</p>
+            <button type="button" class="btn btn-success btn-toggle">Enabled</button>
+            <h4 class="pt-4">News & Events</h4>
+            <p>Calender alerts, new events.</p>
+            <button type="button" class="btn btn-success btn-toggle">Enabled</button>
+            <h4 class="pt-4">Transit Notifications</h4>
+            <p>Parking, travel time.</p>
+            <button type="button" class="btn btn-success btn-toggle">Enabled</button>
+          </div>
+          
+          <div class="pb-5">
+            <h2 class="heading-underline" id="language">Language Preferences</h2>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Change Language
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">Spanish</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">German</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="pb-5">
+            <h2 class="heading-underline" id="accessibility">Accessibility</h2>
+
+            <h4 class="pt-4">Text Size</h4>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-default text-size-toggle font-size-sm" id="text-size-sm">Smaller</button>
+              <button type="button" class="btn btn-primary text-size-toggle font-size-base" id="text-size-rg">Normal</button>
+              <button type="button" class="btn btn-default text-size-toggle font-size-lg" id="text-size-lg">Larger</button>
+            </div>
+
+            <h4 class="pt-4">High Contrast Colors</h4>
+            <button type="button" class="btn btn-default btn-toggle">Disabled</button>
+
+            <h4 class="pt-4">Dark Mode</h4>
+            <button type="button" class="btn btn-default btn-toggle">Disabled</button>
+          </div>
+
+        </div>
       </div>
     </div>
 
