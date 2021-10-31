@@ -16,7 +16,7 @@ footer {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 2%;
     width: 481px;
     height: 971px;
 }
@@ -53,13 +53,6 @@ footer {
     top: 23px;
     left: 27px;
     z-index: 1;
-}
-
-@media (min-width: $breakpoint-mobile) {
-    .proto-wrapper {
-        margin-top: 5%;
-        width: 481px;
-    }
 }
 
 /* Classes */
