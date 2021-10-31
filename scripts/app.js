@@ -44,7 +44,7 @@ function setFontSize() {
 
 /* Get dark mode based on preferences */
 function setDarkMode() {
-    let accessibleElements = "a, body, button, h1, h2, h3, h4, h5, h6, .alert, .fas";
+    let accessibleElements = "a, body, button, h1, h2, h3, h4, h5, h6, .alert, .dropdown-menu, .fas";
     
     if(Cookies.get('darkMode') == "true") {
         $("#dark-mode-toggle").addClass("btn-success");
