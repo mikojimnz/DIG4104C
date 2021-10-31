@@ -1,4 +1,4 @@
-/* Set font size based on preferences*/
+/* Get font size based on preferences */
 function setFontSize() {
     let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, p";
 
@@ -42,6 +42,25 @@ function setFontSize() {
     }
 };
 
+/* Get dark mode based on preferences */
+function setDarkMode() {
+    let accessibleElements = "a, body, button, h1, h2, h3, h4, h5, h6, .alert, .fas";
+    
+    if(Cookies.get('darkMode') == "true") {
+        $("#dark-mode-toggle").addClass("btn-success");
+        $("#dark-mode-toggle").removeClass("btn-default");
+        $("#dark-mode-toggle").text("Enabled");
+
+        $(accessibleElements).addClass("darkmode");
+    } else {
+        $("#dark-mode-toggle").addClass("btn-default");
+        $("#dark-mode-toggle").removeClass("btn-success");
+        $("#dark-mode-toggle").text("Disabled");
+        
+        $(accessibleElements).removeClass("darkmode");
+    }
+}
+
 /* Toggle clickable buttons */
 $(".btn-toggle").on("click", function(){
     if ($(this).hasClass("btn-success")) {
@@ -55,7 +74,7 @@ $(".btn-toggle").on("click", function(){
     }
   });
 
-/* Toggle font size buttons */
+/* Set font size preferences */
 $("#text-size-sm").on("click", function() {
     Cookies.set('fontSize', 'sm');
     setFontSize()
@@ -69,4 +88,16 @@ $("#text-size-lg").on("click", function() {
     setFontSize()
 });
 
+/* Set dark mode preferences */
+$("#dark-mode-toggle").on("click", function() {
+    if($(this).hasClass("btn-success")) {
+        Cookies.set('darkMode', 'true');
+        setDarkMode();
+    } else {
+        Cookies.set('darkMode', 'false');
+        setDarkMode();
+    }
+});
+
 setFontSize()
+setDarkMode();
