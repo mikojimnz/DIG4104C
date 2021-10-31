@@ -1,6 +1,12 @@
 /* Colors */
 @import url(all.css);
 /* Classes */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden; }
+
 .back {
   color: #ffffff; }
 
@@ -97,5 +103,21 @@ footer {
 
 .nav-link > .fas:hover {
   color: rgba(255, 202, 6, 0.5); }
+
+/* Dark Mode Stylings */
+.darkmode, .fas.darkmode {
+  color: white; }
+
+.alert-warning.darkmode {
+  background-color: #f9e7c950 !important; }
+
+.alert-info.darkmode {
+  background-color: #dcf3f850 !important; }
+
+.btn.darkmode {
+  background-color: black; }
+
+body.darkmode {
+  background-color: black; }
 
 /*# sourceMappingURL=styles.css.map */

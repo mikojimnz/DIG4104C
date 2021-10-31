@@ -19,7 +19,7 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
-          <div class="col col-2"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+          <div class="col col-2"><button onclick="location.href='home.html'" return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
           <div class="col col-8 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
@@ -67,7 +67,8 @@
           <h1 class="heading-underline">Preferences</h1>
 
           <div class="pt-5 pb-5">
-            <h2 class="heading-underline" id="campus">Change Campus</h2>
+            <a class="anchor" id="campus"></a>
+            <h2 class="heading-underline">Change Campus</h2>
             <div class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownCampus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Select Campus
@@ -80,15 +81,17 @@
               </div>
             </div>
           </div>
-
-          <div class="pb-5">
-            <h2 class="heading-underline" id="location">Location Preferences</h2>
+          <hr>
+          <div class="pt-5 pb-5">
+            <a class="anchor" id="location"></a>
+            <h2 class="heading-underline">Location Preferences</h2>
             <p>Allow location services.</p>
             <button type="button" class="btn btn-success btn-toggle">Enabled</button>
           </div>
-          
-          <div class="pb-5">
-            <h2 class="heading-underline" id="notification">Notification Preferences</h2>
+          <hr>
+          <div class="pt-5 pb-5">
+            <a class="anchor" id="notification"></a>
+            <h2 class="heading-underline">Notification Preferences</h2>
             <h4 class="pt-4">Emergency Notifications</h4>
             <p>Emergency alerts and notifications.</p>
             <button type="button" class="btn btn-success btn-toggle">Enabled</button>
@@ -99,9 +102,10 @@
             <p>Parking, travel time.</p>
             <button type="button" class="btn btn-success btn-toggle">Enabled</button>
           </div>
-          
-          <div class="pb-5">
-            <h2 class="heading-underline" id="language">Language Preferences</h2>
+          <hr>
+          <div class="pt-5 pb-5">
+            <a class="anchor" id="language"></a>
+            <h2 class="heading-underline">Language Preferences</h2>
             <div class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Change Language
@@ -114,9 +118,10 @@
               </div>
             </div>
           </div>
-          
-          <div class="pb-5">
-            <h2 class="heading-underline" id="accessibility">Accessibility</h2>
+          <hr>
+          <div class="pt-5 pb-5">
+            <a class="anchor" id="accessibility"></a>
+            <h2 class="heading-underline">Accessibility</h2>
 
             <h4 class="pt-4">Text Size</h4>
             <div class="btn-group" role="group" aria-label="Basic example">
@@ -129,7 +134,7 @@
             <button type="button" class="btn btn-default btn-toggle">Disabled</button>
 
             <h4 class="pt-4">Dark Mode</h4>
-            <button type="button" class="btn btn-default btn-toggle">Disabled</button>
+            <button type="button" class="btn btn-default btn-toggle" id="dark-mode-toggle">Disabled</button>
           </div>
 
         </div>
