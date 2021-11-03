@@ -87,7 +87,7 @@ var linguJSON = {
             "source": "Parking, travel time.",
             "target_es": "Aparcamiento, tiempo de viaje.",
             "target_fr": "Stationnement, temps de trajet.",
-            "target_de": "Parking, travel time."
+            "target_de": "Parken, Fahrzeit."
         },
         {
             "source": "Language Preferences",
@@ -149,7 +149,6 @@ var linguJSON = {
             "target_fr": "Désactivé",
             "target_de": "Behinderte"
         }
-        
     ]
 };
        
