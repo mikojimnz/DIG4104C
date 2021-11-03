@@ -1,3 +1,19 @@
+let ui_locales = {
+    "Enabled": 
+    {
+        "en": "Enabled",
+        "es": "Activado",
+        "fr": "Activé",
+        "de": "Ermöglicht"
+    },
+    "Disabled": {
+        "en": "Disabled",
+        "es": "Discapacitado",
+        "fr": "Désactivé",
+        "de": "Behinderte"
+    }
+}
+
 /* Get font size based on preferences */
 function setFontSize() {
     let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, p";
@@ -49,13 +65,13 @@ function setDarkMode() {
     if(Cookies.get('darkMode') == "true") {
         $("#dark-mode-toggle").addClass("btn-success");
         $("#dark-mode-toggle").removeClass("btn-default");
-        $("#dark-mode-toggle").text("Enabled");
+        $("#dark-mode-toggle").text(ui_locales['Enabled'][Cookies.get('lang')]);
 
         $(accessibleElements).addClass("darkmode");
     } else {
         $("#dark-mode-toggle").addClass("btn-default");
         $("#dark-mode-toggle").removeClass("btn-success");
-        $("#dark-mode-toggle").text("Disabled");
+        $("#dark-mode-toggle").text(ui_locales['Disabled'][Cookies.get('lang')]);
         
         $(accessibleElements).removeClass("darkmode");
     }
@@ -64,13 +80,11 @@ function setDarkMode() {
 /* Toggle clickable buttons */
 $(".btn-toggle").on("click", function(){
     if ($(this).hasClass("btn-success")) {
-        $(this).addClass("btn-default");
-        $(this).removeClass("btn-success");
-        $(this).text("Disabled");
+        $(this).toggleClass("btn-default btn-success");
+        $(this).text(ui_locales['Disabled'][Cookies.get('lang')]);
     } else {
-        $(this).addClass("btn-success");
-        $(this).removeClass("btn-default");
-        $(this).text("Enabled");
+        $(this).toggleClass("btn-default btn-success");
+        $(this).text(ui_locales['Enabled'][Cookies.get('lang')]);
     }
   });
 
@@ -99,5 +113,30 @@ $("#dark-mode-toggle").on("click", function() {
     }
 });
 
-setFontSize()
+/* Set language preferences */
+$("#lang_en").on("click", function() {
+    Cookies.set('lang', 'en');
+    location.reload();
+});
+$("#lang_es").on("click", function() {
+    Cookies.set('lang', 'es');
+    location.reload();
+});
+$("#lang_fr").on("click", function() {
+    Cookies.set('lang', 'fr');
+    location.reload();
+});
+$("#lang_de").on("click", function() {
+    Cookies.set('lang', 'de');
+    location.reload();
+});
+
+/* Initalize accessibility features */
+setFontSize();
 setDarkMode();
+
+/* Default cookies */
+$(window).on("load", function() {
+    if (Cookies.get('lang') == undefined)
+        Cookies.set('lang', 'en');
+});
