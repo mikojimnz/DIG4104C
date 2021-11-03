@@ -7,6 +7,8 @@ Made with HTML, SASS, and JavaScript.
 - [Athena Framework](https://github.com/UCF/Athena-Framework)
 - [Font Awsome](https://fontawesome.com)
 - [jquery](https://github.com/jquery/jquery)
+- [js-cookie](https://github.com/js-cookie/js-cookies)
+- [lingumania.js](http://www.lingumania.com/index.html)
 - [tether](https://github.com/shipshapecode/tether)
 
 ## Usage
