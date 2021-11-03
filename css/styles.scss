@@ -137,7 +137,7 @@ footer {
 /* Dark Mode Stylings */
 
 .darkmode, .fas.darkmode {
-    color: white;
+    color: $darkModeText;
 }
 
 .alert-warning.darkmode {
@@ -149,9 +149,14 @@ footer {
 }
 
 .btn.darkmode {
-    background-color: black;
+    background-color: $darkModeBackground;
+}
+
+.dropdown-menu.darkmode {
+    background-color: $darkModeBackground;
+    border: 1px solid #b3b3b3;
 }
 
 body.darkmode {
-    background-color: black;
+    background-color: $darkModeBackground;
 }

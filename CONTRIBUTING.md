@@ -1,6 +1,6 @@
 # Contributing
 
-To contribute to this project, please check out the  `dev` branch for the latest commits.
+To contribute to this project, please check out the  `main` branch for the latest stable release. Please name your branch `dev-YOURNAME` or `dev-YOURNAME-PROJECT`.
 
 Make a pull request when you are finished with a description of what was changed. Please tag all the relevant issues assign relevant project tasks and milestones. 
 
