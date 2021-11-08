@@ -1,5 +1,14 @@
 /* Colors */
 @import url(all.css);
+/* Hide scrollbar for Webkit browsers */
+html {
+  overflow: scroll;
+  overflow-x: hidden; }
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent; }
+
 /* Classes */
 a.anchor {
   display: block;
@@ -32,7 +41,7 @@ a.anchor {
   color: white; }
 
 .font-size-lg {
-  font-size: 1.75rem !important; }
+  font-size: 1.3rem !important; }
 
 .notch-padding {
   background-color: black;
@@ -70,7 +79,13 @@ header {
   height: 85px; }
 
 .banner-logo-text {
-  color: white; }
+  color: white;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.banner-logo-text.font-size-lg {
+  white-space: inherit;
+  overflow: visible; }
 
 .media-background {
   filter: brightness(50%); }
