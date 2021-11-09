@@ -1,3 +1,4 @@
+/* Common translations across all pages */
 let ui_locales = {
     "Enabled": 
     {
@@ -131,12 +132,13 @@ $("#lang_de").on("click", function() {
     location.reload();
 });
 
-/* Initalize accessibility features */
-setFontSize();
-setDarkMode();
-
-/* Default cookies */
 $(window).on("load", function() {
+
+    /* Default cookies */
     if (Cookies.get('lang') == undefined)
         Cookies.set('lang', 'en');
+
+    /* Initalize accessibility features */
+    setFontSize();
+    setDarkMode();
 });
