@@ -17,7 +17,7 @@ let ui_locales = {
 
 /* Get font size based on preferences */
 function setFontSize() {
-    let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, p";
+    let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, li, p, th, tr, td, span";
 
     switch(Cookies.get('fontSize')) {
         case "sm":

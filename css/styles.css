@@ -143,6 +143,9 @@ footer {
   background-color: #000000;
   border: 1px solid #b3b3b3; }
 
+.text-secondary:hover.darkmode:hover {
+  color: #afafaf !important; }
+
 body.darkmode {
   background-color: #000000; }
 
