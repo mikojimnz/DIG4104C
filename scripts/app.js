@@ -133,6 +133,18 @@ $("#lang_de").on("click", function() {
     location.reload();
 });
 
+/* Notifications Sort */
+$("#notification-sort").on("click", "button", function() {
+    var filterValue = $(this).attr("data-filter");
+    $("#notification-list").isotope({ filter: filterValue });
+});
+
+/* Mark notifcation read/unread */
+$("#notification-list > .list-group-item").on("click", function(e) {
+    e.preventDefault();
+    $(this).toggleClass("unread active");
+});
+
 $(window).on("load", function() {
 
     /* Default cookies */

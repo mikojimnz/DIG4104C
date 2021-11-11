@@ -19,7 +19,7 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
-          <div class="col col-3"><button onclick="location.href='home.html'" return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+          <div class="col col-3"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
           <div class="col col-6 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
@@ -133,7 +133,7 @@
             <h2 class="heading-underline">Accessibility</h2>
 
             <h4 class="pt-4">Text Size</h4>
-            <div class="btn-group" role="group" aria-label="Basic example">
+            <div class="btn-group" role="group" aria-label="Font Size" id="text-size-toggle">
               <button type="button" class="btn btn-default text-size-toggle font-size-sm" id="text-size-sm">Smaller</button>
               <button type="button" class="btn btn-primary text-size-toggle font-size-base" id="text-size-rg">Normal</button>
               <button type="button" class="btn btn-default text-size-toggle font-size-lg" id="text-size-lg">Larger</button>
