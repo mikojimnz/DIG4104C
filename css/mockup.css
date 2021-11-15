@@ -46,4 +46,16 @@ footer {
 .container {
   background-color: #adadad; }
 
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .proto-wrapper {
+    transform: scale(0.75);
+    position: relative;
+    left: -10%;
+    top: -100px; }
+
+  footer {
+    position: relative;
+    top: -150px; } }
+
 /*# sourceMappingURL=mockup.css.map */

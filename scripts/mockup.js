@@ -1,6 +1,4 @@
-
 /* Show/Hide mobile alert banner */
-
 $(window).on('resize', function(){
     var win = $(this);
     if (win.width() < 768) { 
@@ -15,3 +13,4 @@ $(window).on('resize', function(){
 window.dispatchEvent(new Event('resize'));
 
 gsap.fromTo(".proto-wrapper", {opacity: 0, y: 100}, {opacity: 1, y: 0, duration: 1.5});
+gsap.fromTo("footer", {opacity: 0, y: 100}, {opacity: 1, y: 0, duration: 1.5, delay: 1.5});
