@@ -133,6 +133,12 @@ $("#lang_de").on("click", function() {
     location.reload();
 });
 
+/* News Sort */
+$("#news-sort").on("click", "button", function() {
+    var filterValue = $(this).attr("data-filter");
+    $("#news-list").isotope({ filter: filterValue });
+});
+
 /* Notifications Sort */
 $("#notification-sort").on("click", "button", function() {
     var filterValue = $(this).attr("data-filter");
