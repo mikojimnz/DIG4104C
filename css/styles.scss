@@ -1,6 +1,16 @@
 @import "variables";
 @import "all.css";
 
+/* Hide scrollbar for Webkit browsers */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
 /* Classes */
 
 a.anchor {
@@ -41,7 +51,7 @@ a.anchor {
 }
 
 .font-size-lg {
-    font-size: 1.75rem!important;
+    font-size: 1.3rem!important;
 }
 
 .notch-padding {
@@ -90,6 +100,13 @@ header {
 
 .banner-logo-text {
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.banner-logo-text.font-size-lg {
+    white-space: inherit;
+    overflow: visible;
 }
 
 .media-background {
@@ -136,11 +153,11 @@ footer {
 
 /* Dark Mode Stylings */
 
-.darkmode, .fas.darkmode {
-    color: $darkModeText;
+.darkmode, .fas.darkmode, .text-secondary.darkmode {
+    color: $darkModeText!important;
 }
 
-.alert-warning.darkmode {
+.alert-warning.darkmode, .list-group-item.active.darkmode {
     background-color: #f9e7c950!important;
 }
 
@@ -148,13 +165,27 @@ footer {
     background-color: #dcf3f850!important;
 }
 
-.btn.darkmode {
+.btn.darkmode, .card-block.darkmode {
     background-color: $darkModeBackground;
+}
+
+.breadcrumb-item.active.darkmode {
+    color: #bbbbbb;
+}
+
+.card-header.darkmode, .list-group-item.darkmode {
+    background-color: #131110;
+    border: 1px solid rgba(255,255,255,.125);
+
 }
 
 .dropdown-menu.darkmode {
     background-color: $darkModeBackground;
     border: 1px solid #b3b3b3;
+}
+
+.text-secondary:hover.darkmode:hover {
+    color: #afafaf!important;
 }
 
 body.darkmode {

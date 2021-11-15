@@ -19,30 +19,39 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
-          <div class="col col-2"><button onclick="location.href='home.html'" return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
-          <div class="col col-8 text-center">
+          <div class="col col-3"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+          <div class="col col-6 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
-          <div class="col col-2">
-            <button class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="col col-3">
+            <ul class="nav">
+              <li class="nav-item p-0">
+                <a class="nav-link" href="notifications.html">
+                  <i class="fas fa-bell fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item p-0">
+                <a class="nav-link text-white" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars fa-lg"></i>
+                </a>
+              </li>
+            </ul>
         </div>
         
           <div class="collapse navbar-collapse" id="settingsNav">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user pr-2"></i></span>Profile</a>
+                <a class="nav-link" href="profile.html"><i class="fas fa-user pr-2"></i></span>Profile</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFavorites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-star pr-2"></i>Favorites</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites">
-                  <a class="dropdown-item" href="#">myUCF</a>
-                  <a class="dropdown-item" href="#">Kinghts Email</a>
-                  <a class="dropdown-item" href="#">Grades</a>
-                  <a class="dropdown-item" href="#">Dining</a>
-                  <a class="dropdown-item" href="#">Parking</a>
-                  <a class="dropdown-item" href="#">News</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites" id="navbarDropdownFavorites">
+                  <a class="dropdown-item" href="https://my.ucf.edu" target="_blank">myUCF</a>
+                  <a class="dropdown-item" href="https://knightsemail.ucf.edu/Account/Login?ReturnUrl=/ManageAccount/" target="_blank">Kinghts Email</a>
+                  <a class="dropdown-item" href="academics.html">Grades</a>
+                  <a class="dropdown-item" href="amenities.html">Dining</a>
+                  <a class="dropdown-item" href="transportion.html">Parking</a>
+                  <a class="dropdown-item" href="news.html">News</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -124,14 +133,11 @@
             <h2 class="heading-underline">Accessibility</h2>
 
             <h4 class="pt-4">Text Size</h4>
-            <div class="btn-group" role="group" aria-label="Basic example">
+            <div class="btn-group" role="group" aria-label="Font Size" id="text-size-toggle">
               <button type="button" class="btn btn-default text-size-toggle font-size-sm" id="text-size-sm">Smaller</button>
               <button type="button" class="btn btn-primary text-size-toggle font-size-base" id="text-size-rg">Normal</button>
               <button type="button" class="btn btn-default text-size-toggle font-size-lg" id="text-size-lg">Larger</button>
             </div>
-
-            <h4 class="pt-4">High Contrast Colors</h4>
-            <button type="button" class="btn btn-default btn-toggle">Disabled</button>
 
             <h4 class="pt-4">Dark Mode</h4>
             <button type="button" class="btn btn-default btn-toggle" id="dark-mode-toggle">Disabled</button>
@@ -142,24 +148,24 @@
     </div>
 
     <footer>
-          <ul class="nav nav-fill justify-content-center pl-5 pr-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-book fa-2x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-bus fa-2x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-map-marked fa-2x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-calendar-alt fa-2x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-exclamation-triangle fa-2x"></i></a>
-            </li>
-          </ul>
-    </footer>
+      <ul class="nav nav-fill justify-content-center pl-5 pr-5">
+        <li class="nav-item">
+          <a class="nav-link" href="academics.html"><i class="fas fa-book fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transportion.html"><i class="fas fa-bus fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="amenities.html"><i class="fas fa-map-marked fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html"><i class="fas fa-calendar-alt fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html"><i class="fas fa-exclamation-triangle fa-2x"></i></a>
+        </li>
+      </ul>
+</footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -168,5 +174,5 @@
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 <script src="../locales/preferences.js"></script>
 <script src="../scripts/lingumania.js"></script>
-<script src="../scripts/accessibility.js"></script>
+<script src="../scripts/app.js"></script>
 </html>

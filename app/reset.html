@@ -38,6 +38,26 @@
       <div class="row pt-5">
         <div class="col">
             <h1 class="heading-underline">Reset Password</h1>
+            <form class="pt-5" action="login.html">
+              <div class="form-group">
+                <label for="resetEmail">Account Email</label>
+                <input type="email" class="form-control" id="resetEmail" aria-describedby="resetHelp" placeholder="Enter Email">
+                <small id="resetHelp" class="form-text text-muted">Instructions to reset your password will be emailed to you if you have a valid account.</small>
+
+                <label for="resetCaptcha" class="pt-4">Enter Captcha</label>
+                <small id="resetCaptchaHelp" class="form-text text-muted">Enter the characters you see or hear.</small>
+                <div class="pt-2 pb-2">
+                  <img src="../img/captcha.jpg" alt="Captcha">
+                  <a href="#"><i class="fas fa-volume-up"></i></a>
+                </div>
+                <input type="text" class="form-control" id="resetCaptcha" aria-describedby="resetCaptchaHelp" placeholder="Enter Captcha">
+              </div>
+              
+              <div class="form-group pt-4">
+                <button type="submit" class="btn btn-primary">Reset Password</button>
+                <a href="login.html" class="btn btn-link btn-sm">Cancel</a>
+              </div>
+            </form>
           </div>
       </div>
     </div>

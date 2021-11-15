@@ -6,7 +6,10 @@ Made with HTML, SASS, and JavaScript.
 ## Frameworks & Dependencies 
 - [Athena Framework](https://github.com/UCF/Athena-Framework)
 - [Font Awsome](https://fontawesome.com)
+- [Isotope](https://isotope.metafizzy.co)
 - [jquery](https://github.com/jquery/jquery)
+- [js-cookie](https://github.com/js-cookie/js-cookies)
+- [lingumania.js](http://www.lingumania.com/index.html)
 - [tether](https://github.com/shipshapecode/tether)
 
 ## Usage
@@ -19,4 +22,7 @@ Made with HTML, SASS, and JavaScript.
 Download the repo from the `main` branch.
 
 ## Contributing
+
+See [Contributing.md](https://github.com/mikojimnz/DIG4104C/blob/main/CONTRIBUTING.md).
+
 Please check the [Project Boards](https://github.com/mikojimnz/DIG4104C/projects/1) for the latest project roadmap.

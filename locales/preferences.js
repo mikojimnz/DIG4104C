@@ -87,18 +87,19 @@ var linguJSON = {
             "source": "Parking, travel time.",
             "target_es": "Aparcamiento, tiempo de viaje.",
             "target_fr": "Stationnement, temps de trajet.",
-            "target_de": "Parking, travel time."
+            "target_de": "Parken, Fahrzeit."
         },
         {
             "source": "Language Preferences",
             "target_es": "Preferencias de idioma",
             "target_fr": "Préférences de langue",
             "target_de": "Sprache ändern"
-        },{
+        },
+        {
             "source": "Change Language",
             "target_es": "Cambiar idioma",
             "target_fr": "Changer de langue",
-            "target_de": ""
+            "target_de": "Sprache ändern"
         },
         {
             "source": "Accessibility",
@@ -110,7 +111,7 @@ var linguJSON = {
             "source": "Smaller",
             "target_es": "Mas pequeño",
             "target_fr": "Plus petite",
-            "target_de": "Smaller"
+            "target_de": "Kleiner"
         },
         {
             "source": "Normal",
@@ -128,7 +129,7 @@ var linguJSON = {
             "source": "High Contrast Colors",
             "target_es": "Colores de alto contraste",
             "target_fr": "Couleurs à contraste élevé",
-            "target_de": ""
+            "target_de": "Farben mit hohem Kontrast"
         },
         {
             "source": "Dark Mode",
@@ -148,7 +149,6 @@ var linguJSON = {
             "target_fr": "Désactivé",
             "target_de": "Behinderte"
         }
-        
     ]
 };
        

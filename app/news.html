@@ -1,0 +1,208 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UCF Mobile – News &amp; Evnents</title>
+  <meta name="description" content="UCF Mobile News & Events">
+  <meta name="author" content="Group 3">
+
+  <link rel="stylesheet" href="https://cdn.ucf.edu/athena-framework/v1.1.0/css/framework.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+      <div class="banner-top">
+        <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+          <div class="col col-3"><button onclick="location.href='home.html';" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+          <div class="col col-6 text-center">
+            <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
+          </div>
+          <div class="col col-3">
+            <ul class="nav">
+              <li class="nav-item p-0">
+                <a class="nav-link" href="notifications.html">
+                  <i class="fas fa-bell fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item p-0">
+                <a class="nav-link text-white" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+        
+          <div class="collapse navbar-collapse" id="settingsNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html"><i class="fas fa-user pr-2"></i></span>Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFavorites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-star pr-2"></i>Favorites</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites" id="navbarDropdownFavorites">
+                  <a class="dropdown-item" href="https://my.ucf.edu" target="_blank">myUCF</a>
+                  <a class="dropdown-item" href="https://knightsemail.ucf.edu/Account/Login?ReturnUrl=/ManageAccount/" target="_blank">Kinghts Email</a>
+                  <a class="dropdown-item" href="academics.html">Grades</a>
+                  <a class="dropdown-item" href="amenities.html">Dining</a>
+                  <a class="dropdown-item" href="transportion.html">Parking</a>
+                  <a class="dropdown-item" href="news.html">News</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="preferences.html" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i> Settings</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSettings">
+                  <a class="dropdown-item" href="#">Edit Favorites</a>
+                  <a class="dropdown-item" href="preferences.html#campus">Change Campus</a>
+                  <a class="dropdown-item" href="preferences.html#location">Location & Notification Preferences</a>
+                  <a class="dropdown-item" href="preferences.html#language">Language & Accessibility Preferences</a>
+                  <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+              </li>
+          </div>
+        </nav>
+      </div>
+
+      <div class="media-background-container">
+        <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
+        <div class="row banner-bottom">
+          <div class="col col-4"><img src="../img/TheTab_sm.png" alt="" class="banner-logo"></div>
+          <div class="col col-8">
+              <h1 class="banner-title">Amanda</h1>
+              <h5 class="banner-subtitle">UCF Downtown</h5>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row pt-3">
+        <div class="col col-12">
+          <ol class="breadcrumb" role="navigation" aria-label="breadcrumb">
+            <li class="breadcrumb-item font-size"><a href="home.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">News & Events</li>
+          </ol>
+        </div>
+        <div class="col col-12">
+          <h1 class="heading-underline">News & Events</h1>
+        </div>
+      </div>
+
+      <div class="row pt-3">
+        <div class="col col-12 text-center">
+          <div class="btn-group filter-button-group" role="group" aria-label="Notification Sort" id="news-sort">
+            <button type="button" class="btn btn-default notification-sort" data-filter=".news">News</button>
+            <button type="button" class="btn btn-default notification-sort" data-filter=".events">Events</button>
+            <button type="button" class="btn btn-default notification-sort" data-filter="*">All</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-2">
+        <div class="col col-12">
+          <div class="list-group" id="news-list" data-isotope='{ "itemSelector": ".list-group-item"}'>
+
+            <a href="https://events.ucf.edu/event/2217498/build-your-online-brand/" class="list-group-item list-group-item-action flex-column align-items-start events">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Build Your Online Brand</h5>
+              </div>
+              <p class="mb-1">Identify effective strategies to utilize social media in your job search and how you can use these tools to enhance your online professional brand in order to network with potential employers.</p>
+              <small>UCF Events – Tomorrow</small>
+            </a>
+
+            <a href="https://www.ucf.edu/news/snapshots-of-ucf-2021-homecoming-week/" target="_blank" class="list-group-item list-group-item-action flex-row align-items-start news">
+              <div class="pr-3 d-flex w-75 flex-column justify-content-between">
+                <h5 class="mb-1">Snapshots of UCF 2021 Homecoming Week</h5>
+                <p class="mb-1">A rainy but spirited Spirit Splash, celebrating graduates and a UCF football win — this year’s Homecoming had it all.</p>
+                <small class="text-muted">UCF Today – 1 Day ago</small>
+              </div>
+              <div class="d-flex w-25 justify-content-start">
+                <img src="https://www.ucf.edu/news/files/2021/11/ucf-cheer-spirit-splash-600x400.jpg" class="img-fluid img-thumbnail">
+              </div>
+            </a>
+
+            <a href="https://events.ucf.edu/event/2232802/knights-trumpet-ensemble-concert/" class="list-group-item list-group-item-action flex-column align-items-start events">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Knights Trumpet Ensemble Concert</h5>
+              </div>
+              <p class="mb-1">Students of assistant professor of trumpet Jesse Cook perform in recital.</p>
+              <small>UCF Events – Today</small>
+            </a>
+            
+
+            <a href="https://www.ucf.edu/news/ucf-salutes-service-members-on-veterans-day/" target="_blank" class="list-group-item list-group-item-action flex-row align-items-start news">
+              <div class="pr-3 d-flex w-75 flex-column justify-content-between">
+                <h5 class="mb-1">UCF Salutes Service Members on Veterans Day</h5>
+                <p class="mb-1">Inspired by her family’s ties to the military, UCF Vice President of Diversity, Equity and Inclusion encourages us all to celebrate the true meaning behind Veterans Day.</p>
+                <small class="text-muted">UCF Today – 2 Day ago</small>
+              </div>
+              <div class="d-flex w-25 justify-content-start">
+                <img src="https://www.ucf.edu/news/files/2021/11/Student-Veterans-2021-600x400.jpg" class="img-fluid img-thumbnail">
+              </div>
+            </a>
+
+            <a href="https://www.ucf.edu/news/ucf-salutes-service-members-on-veterans-day/" target="_blank" class="list-group-item list-group-item-action flex-row align-items-start news">
+              <div class="pr-3 d-flex w-75 flex-column justify-content-between">
+                <h5 class="mb-1">Knights Handle Hurricanes in Miami</h5>
+                <p class="mb-1">The UCF men's basketball team took care of business on the road Saturday afternoon in Miami as the Knights (2-0) bested the Hurricanes (1-1), 95-89, at Watsco Center in Coral Gables, Florida.</p>
+                <small class="text-muted">UCF Knights – 3 Day ago</small>
+              </div>
+              <div class="d-flex w-25 justify-content-start">
+                <img src="https://ucfknights.com/images/2021/11/13/Final_Score_wide.jpg?width=200&quality=80&format=jpg" class="img-fluid img-thumbnail">
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+        
+      <div class="row pt-5">
+        <div class="col col-12">
+          <h6>Quick Links</h6>
+          <div class="list-group list-group-flush">
+            <a href="https://events.ucf.edu" class="list-group-item list-group-item-action" target="_blank">UCF Events<i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://www.ucf.edu/news/" class="list-group-item list-group-item-action" target="_blank">UCF Today<i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://events.ucf.edu/calendar/5030/ucf-downtown/upcoming/" class="list-group-item list-group-item-action" target="_blank">Downtown Events<i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://www.ucf.edu/downtown/news/" class="list-group-item list-group-item-action" target="_blank">Downtown News <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://knightconnect.campuslabs.com/engage/" class="list-group-item list-group-item-action" target="_blank">Knight Connect <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://ucfknights.com" class="list-group-item list-group-item-action" target="_blank">Athletics <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://www.ucf.edu/pegasus/" class="list-group-item list-group-item-action" target="_blank">Pegasus Magazine <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://calendar.ucf.edu" class="list-group-item list-group-item-action" target="_blank">Faculty Events <i class="fa fa-chevron-right ml-auto"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+          <ul class="nav nav-fill justify-content-center pl-5 pr-5">
+            <li class="nav-item">
+              <a class="nav-link" href="academics.html"><i class="fas fa-book fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportion.html"><i class="fas fa-bus fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="amenities.html"><i class="fas fa-map-marked fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="news.html"><i class="fas fa-calendar-alt fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html"><i class="fas fa-exclamation-triangle fa-2x"></i></a>
+            </li>
+          </ul>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha384-CPFFlrdhp9pDDCqRqdTKNZ5oAHsnfnvHGt0CsRIeL5Gc7V/OkP1Y4w8zTxlV3mat" crossorigin="anonymous"></script>
+<script src="https://cdn.ucf.edu/athena-framework/v1.1.0/js/framework.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="../scripts/app.js"></script>
+</html>

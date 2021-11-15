@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UCF Mobile – Transportion</title>
+  <meta name="description" content="UCF Mobile Transportion">
+  <meta name="author" content="Group 3">
+
+  <link rel="stylesheet" href="https://cdn.ucf.edu/athena-framework/v1.1.0/css/framework.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+      <div class="banner-top">
+        <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+          <div class="col col-3"><button onclick="location.href='home.html';" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+          <div class="col col-6 text-center">
+            <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
+          </div>
+          <div class="col col-3">
+            <ul class="nav">
+              <li class="nav-item p-0">
+                <a class="nav-link" href="notifications.html">
+                  <i class="fas fa-bell fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item p-0">
+                <a class="nav-link text-white" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+        
+          <div class="collapse navbar-collapse" id="settingsNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html"><i class="fas fa-user pr-2"></i></span>Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFavorites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-star pr-2"></i>Favorites</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites" id="navbarDropdownFavorites">
+                  <a class="dropdown-item" href="https://my.ucf.edu" target="_blank">myUCF</a>
+                  <a class="dropdown-item" href="https://knightsemail.ucf.edu/Account/Login?ReturnUrl=/ManageAccount/" target="_blank">Kinghts Email</a>
+                  <a class="dropdown-item" href="academics.html">Grades</a>
+                  <a class="dropdown-item" href="amenities.html">Dining</a>
+                  <a class="dropdown-item" href="transportion.html">Parking</a>
+                  <a class="dropdown-item" href="news.html">News</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="preferences.html" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i> Settings</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSettings">
+                  <a class="dropdown-item" href="#">Edit Favorites</a>
+                  <a class="dropdown-item" href="preferences.html#campus">Change Campus</a>
+                  <a class="dropdown-item" href="preferences.html#location">Location & Notification Preferences</a>
+                  <a class="dropdown-item" href="preferences.html#language">Language & Accessibility Preferences</a>
+                  <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+              </li>
+          </div>
+        </nav>
+      </div>
+
+      <div class="media-background-container">
+        <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
+        <div class="row banner-bottom">
+          <div class="col col-4"><img src="../img/TheTab_sm.png" alt="" class="banner-logo"></div>
+          <div class="col col-8">
+              <h1 class="banner-title">Amanda</h1>
+              <h5 class="banner-subtitle">UCF Downtown</h5>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row pt-3">
+        <div class="col col-12">
+          <ol class="breadcrumb" role="navigation" aria-label="breadcrumb">
+            <li class="breadcrumb-item font-size"><a href="home.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Transportion</li>
+          </ol>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col col-12">
+          <h1 class="heading-underline">Transportion</h1>
+
+          <div id="transportion-widgets" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                  <a class="text-secondary" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Campus Map
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-block">
+                  <iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d224257.42932298678!2d-81.42883800554873!3d28.569092076012975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x88e7685d6a0a495f%3A0x5fd59b92b3c79bab!2sUniversity%20of%20Central%20Florida%2C%204000%20Central%20Florida%20Blvd%2C%20Orlando%2C%20FL%2032816%2C%20USA!3m2!1d28.6024274!2d-81.2000599!4m5!1s0x88e77afe6d16cb3d%3A0x1c1a472c2c1a14ab!2sUCF%20Downtown%2C%20500%20W%20Livingston%20St%2C%20Orlando%2C%20FL%2032801!3m2!1d28.5465336!2d-81.3862951!5e0!3m2!1sen!2sus!4v1636953788140!5m2!1sen!2sus" style="border:none;width:100%;height:428px;" width="100%"><a style="display:block;color:#000;font-weight:bold;font-size:16px;" href="https://map.ucf.edu?show=0">Downtown</a></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="text-secondary" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Parking Availability
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-block">
+                  <iframe frameborder="0" src="https://secure.parking.ucf.edu/GarageCount/" width="100%" height="335px"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h6 class="pt-5">Quick Links</h6>
+          <div class="list-group list-group-flush">
+            <a href="https://map.ucf.edu" class="list-group-item list-group-item-action" target="_blank">Campus Map <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://map.ucf.edu/?show=downtown" class="list-group-item list-group-item-action" target="_blank">Downtown Orlando Map <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://ucf.doublemap.com/map/" class="list-group-item list-group-item-action" target="_blank">Shuttles <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://lynx.maps.arcgis.com/home/index.html" class="list-group-item list-group-item-action" target="_blank">Transit <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://secure.parking.ucf.edu/GarageCount/" class="list-group-item list-group-item-action" target="_blank">Parking <i class="fa fa-chevron-right ml-auto"></i></a>
+            <a href="https://parking.ucf.edu" class="list-group-item list-group-item-action" target="_blank">UCF Parking Services <i class="fa fa-chevron-right ml-auto"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+          <ul class="nav nav-fill justify-content-center pl-5 pr-5">
+            <li class="nav-item">
+              <a class="nav-link" href="academics.html"><i class="fas fa-book fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="transportion.html"><i class="fas fa-bus fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="amenities.html"><i class="fas fa-map-marked fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html"><i class="fas fa-calendar-alt fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html"><i class="fas fa-exclamation-triangle fa-2x"></i></a>
+            </li>
+          </ul>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha384-CPFFlrdhp9pDDCqRqdTKNZ5oAHsnfnvHGt0CsRIeL5Gc7V/OkP1Y4w8zTxlV3mat" crossorigin="anonymous"></script>
+<script src="https://cdn.ucf.edu/athena-framework/v1.1.0/js/framework.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="../scripts/app.js"></script>
+</html>

@@ -1,3 +1,4 @@
+/* Common translations across all pages */
 let ui_locales = {
     "Enabled": 
     {
@@ -16,7 +17,7 @@ let ui_locales = {
 
 /* Get font size based on preferences */
 function setFontSize() {
-    let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, p";
+    let accessibleText = "a, button:not('.text-size-toggle'), h1, h2, h3, h4, h5, h6, li, p, th, tr, td, span";
 
     switch(Cookies.get('fontSize')) {
         case "sm":
@@ -60,7 +61,8 @@ function setFontSize() {
 
 /* Get dark mode based on preferences */
 function setDarkMode() {
-    let accessibleElements = "a, body, button, h1, h2, h3, h4, h5, h6, .alert, .dropdown-menu, .fas";
+    let accessibleElements = "a, body, button, h1, h2, h3, h4, h5, h6, .alert, .breadcrumb-item.active,"
+    + ".card-block, .card-header, .dropdown-menu, .fas, .list-group-item, .text-secondary";
     
     if(Cookies.get('darkMode') == "true") {
         $("#dark-mode-toggle").addClass("btn-success");
@@ -131,12 +133,31 @@ $("#lang_de").on("click", function() {
     location.reload();
 });
 
-/* Initalize accessibility features */
-setFontSize();
-setDarkMode();
+/* News Sort */
+$("#news-sort").on("click", "button", function() {
+    var filterValue = $(this).attr("data-filter");
+    $("#news-list").isotope({ filter: filterValue });
+});
 
-/* Default cookies */
+/* Notifications Sort */
+$("#notification-sort").on("click", "button", function() {
+    var filterValue = $(this).attr("data-filter");
+    $("#notification-list").isotope({ filter: filterValue });
+});
+
+/* Mark notifcation read/unread */
+$("#notification-list > .list-group-item").on("click", function(e) {
+    e.preventDefault();
+    $(this).toggleClass("unread active");
+});
+
 $(window).on("load", function() {
+
+    /* Default cookies */
     if (Cookies.get('lang') == undefined)
         Cookies.set('lang', 'en');
+
+    /* Initalize accessibility features */
+    setFontSize();
+    setDarkMode();
 });
