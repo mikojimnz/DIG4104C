@@ -151,6 +151,7 @@ $("#notification-list > .list-group-item").on("click", function(e) {
     $(this).toggleClass("unread active");
 });
 
+/* Run on window ready */
 $(window).on("load", function() {
 
     /* Default cookies */
