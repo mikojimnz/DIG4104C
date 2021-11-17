@@ -80,22 +80,13 @@ header {
 }
 
 .banner-bottom {
-    padding-top: 30px;
-    height: 140px;
+    height: 110px;
 }
 
 .banner-logo {
     display: block;
     margin-left: auto;
     height: 85px;
-}
-
-.login-banner-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 85px;
-    // margin-top: 30px;
 }
 
 .banner-logo-text {
@@ -107,6 +98,18 @@ header {
 .banner-logo-text.font-size-lg {
     white-space: inherit;
     overflow: visible;
+}
+
+.login-banner-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85px;
+}
+
+.login-banner-bottom {
+    padding-top: 30px;
+    height: 140px;
 }
 
 .media-background {
