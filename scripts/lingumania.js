@@ -714,12 +714,14 @@ whether standalone or as part of another javascript, are not permitted without p
 
                             if (!linguJSON.translated_pages) {
 
+                                // Not necessary with cookies
                                 // rewriteUrl(link, absoluteLink, translationLang, url_pattern);
                             } else {
 
                                 var comparableLink = createComparableLink(absoluteLink, languages);
                                 for (var j = 0; j < linguJSON.translated_pages.length; j++) {
                                     if (comparableLink == linguJSON.translated_pages[j].slug.toLowerCase()) {
+                                        // Not necessary with cookies
                                         // rewriteUrl(link, absoluteLink, translationLang, url_pattern);
                                         break;
                                     }

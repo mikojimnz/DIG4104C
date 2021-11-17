@@ -29,17 +29,25 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+          <!-- Left Group-->
           <div class="col col-3"><button onclick="location.href='home.html';" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+
+          <!-- Center Logo-->
           <div class="col col-6 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
+
+          <!-- Right Group -->
           <div class="col col-3">
             <ul class="nav">
+              <!-- Notification Icon -->
               <li class="nav-item p-0">
                 <a class="nav-link" href="notifications.html">
                   <i class="fas fa-bell fa-lg"></i>
                 </a>
               </li>
+
+              <!-- Hamburger Icon -->
               <li class="nav-item p-0">
                 <a class="nav-link text-white" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fas fa-bars fa-lg"></i>
@@ -47,12 +55,16 @@
               </li>
             </ul>
         </div>
-        
+
+          <!-- Dropdown Links -->
           <div class="collapse navbar-collapse" id="settingsNav">
             <ul class="navbar-nav mr-auto">
+              <!-- Profile-->
               <li class="nav-item">
                 <a class="nav-link" href="profile.html"><i class="fas fa-user pr-2"></i><span>Profile</span></a>
               </li>
+
+              <!-- Favorites -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFavorites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-star pr-2"></i><span>Favorites</span></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites" id="navbarDropdownFavorites">
@@ -64,6 +76,8 @@
                   <a class="dropdown-item" href="news.html">News</a>
                 </div>
               </li>
+
+              <!-- Preferences -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="preferences.html" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i><span>Settings</span></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownSettings">
@@ -78,6 +92,7 @@
         </nav>
       </div>
 
+      <!-- Image Header -->
       <div class="media-background-container">
         <img class="media-background object-fit-cover" src="../img/ucf-downtown.jpg" alt="">
         <div class="row banner-bottom">
@@ -90,7 +105,10 @@
       </div>
     </header>
 
+    <!-- Main Content -->
     <div class="container">
+
+      <!-- Breadcrumb -->
       <div class="row pt-3">
         <div class="col col-12">
           <ol class="breadcrumb" role="navigation" aria-label="breadcrumb">
@@ -99,13 +117,18 @@
           </ol>
         </div>
       </div>
-        
+      
+      <!-- Body -->
       <div class="row">
         <div class="col col-12">
           <h1 class="heading-underline">Academics</h1>
 
           <div id="academics-widgets" role="tablist">
+
+            <!-- Academics Card -->
             <div class="card">
+
+              <!-- Button -->
               <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
                   <a class="text-secondary" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -113,6 +136,8 @@
                   </a>
                 </h5>
               </div>
+
+              <!-- Button Dropdown -->
               <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-block">
                   <table class="table">
@@ -144,7 +169,10 @@
                 </div>
               </div>
             </div>
+
+            <!-- Holds & To Dos Card -->
             <div class="card">
+              <!-- Button -->
               <div class="card-header" role="tab" id="headingTwo">
                 <h5 class="mb-0">
                   <a class="text-secondary" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -152,15 +180,21 @@
                   </a>
                 </h5>
               </div>
+
+              <!-- Button Dropdown-->
               <div id="collapseTwo" class="collapse collapsed" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-block">
                   <div class="row">
+
+                    <!-- Left Col -->
                     <div class="col col-6">
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item active">Holds</li>
                         <li class="list-group-item">No Holds</li>
                       </ul>
                     </div>
+
+                    <!-- Right Col -->
                     <div class="col col-6">
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item active">To Dos</li>
@@ -173,6 +207,7 @@
             </div>
           </div>
 
+          <!-- Section -->
           <h6 class="pt-5">Quick Links</h6>
           <div class="list-group list-group-flush">
             <a href="https://my.ucf.edu" class="list-group-item list-group-item-action" target="_blank"><span>myUCF</span> <i class="fa fa-chevron-right ml-auto"></i></a>

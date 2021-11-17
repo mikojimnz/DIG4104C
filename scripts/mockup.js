@@ -10,7 +10,9 @@ $(window).on('resize', function(){
     }
 });
 
+// Trigger #mobile-alert on load
 window.dispatchEvent(new Event('resize'));
 
+// Animate elements
 gsap.fromTo(".proto-wrapper", {opacity: 0, y: 100}, {opacity: 1, y: 0, duration: 1.5});
 gsap.fromTo("footer", {opacity: 0, y: 100}, {opacity: 1, y: 0, duration: 1.5, delay: 1.5});

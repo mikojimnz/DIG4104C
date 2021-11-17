@@ -62,7 +62,10 @@ footer {
 }
 
 /* Media Queries */
+/* Mobile Query */
 @media screen and (max-width: $breakpoint-mobile) {
+
+    /* Scale device to fit on screen */
     .proto-wrapper {
         transform: scale(0.75);
         position: relative;
