@@ -29,30 +29,42 @@
     <header>
       <div class="banner-top">
         <nav class="row navbar navbar-toggleable-lg navbar-inverse bg-inverse bg-faded">
+          <!-- Left Group-->
           <div class="col col-3"><button onclick="window.history.go(-1); return false;" class="btn btn-link btn-sm back"><i class="fas fa-chevron-left fa-2x"></i></button></div>
+
+          <!-- Center Logo-->
           <div class="col col-6 text-center">
             <a class="btn" href="home.html"><h6 class="text-uppercase banner-logo-text" role="button">UCF Downtown</h6></a>
           </div>
+
+          <!-- Right Group -->
           <div class="col col-3">
             <ul class="nav">
+              <!-- Notification Icon -->
               <li class="nav-item p-0">
                 <a class="nav-link" href="notifications.html">
                   <i class="fas fa-bell fa-lg"></i>
                 </a>
               </li>
+
+              <!-- Hamburger Icon -->
               <li class="nav-item p-0">
                 <a class="nav-link text-white" data-toggle="collapse" data-target="#settingsNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fas fa-bars fa-lg"></i>
                 </a>
               </li>
             </ul>
-        </div>
+          </div>
         
+          <!-- Dropdown Links -->
           <div class="collapse navbar-collapse" id="settingsNav">
             <ul class="navbar-nav mr-auto">
+              <!-- Profile-->
               <li class="nav-item">
                 <a class="nav-link" href="profile.html"><i class="fas fa-user pr-2"></i><span>Profile</span></a>
               </li>
+
+              <!-- Favorites -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFavorites" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-star pr-2"></i><span>Favorites</span></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownFavorites" id="navbarDropdownFavorites">
@@ -64,6 +76,8 @@
                   <a class="dropdown-item" href="news.html">News</a>
                 </div>
               </li>
+
+              <!-- Preferences -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="preferences.html" id="navbarDropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench pr-2"></i><span>Settings</span></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownSettings">
@@ -79,21 +93,34 @@
       </div>
     </header>
 
+    <!-- Main Content -->
     <div class="container no-image-padding">
       <div class="row">
         <div class="col">
           <h1 class="heading-underline">Profile</h1>
+
+          <!-- Name -->
           <h4>Name</h4>
           <p>Amanda Bynes</p>
+
+          <!-- Major -->
           <h4>Major</h4>
           <p>Digital Media Track – 2018 Catalog</p>
+
+          <!-- College -->
           <h4>College</h4>
           <p>College of Sciences</p>
+
+          <!-- Phone -->
           <h4>Phone Number</h4>
           <p>(307) 321-543 <a href="https://my.ucf.edu" target="_blank"><i class="fas fa-edit float-right"></i></a></p>
+
+          <!-- Email -->
           <h4>Email</h4>
           <p>amandabynes@knights.ucf.edu <a href="https://my.ucf.edu" target="_blank"><i class="fas fa-edit float-right"></i></a></p>
+          
           <hr>
+
           <a href="preferences.html" class="btn btn-primary">Edit Preferences</a>
         </div>
       </div>
