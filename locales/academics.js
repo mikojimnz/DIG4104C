@@ -26,42 +26,62 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Academics",
             "target_es": "Académicos",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Grade",
             "target_es": "Nota",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Grades",
             "target_es": "Notas",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Holds & To Dos",
             "target_es": "Retenciones y cosas por hacer",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Knights Email",
             "target_es": "Correo electrónico de Knights",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Library",
             "target_es": "La Biblioteca",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Course Search",
             "target_es": "Búsqueda de Cursos",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Student Services",
             "target_es": "Servicios para Estudiantes",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Holds",

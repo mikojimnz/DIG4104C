@@ -26,26 +26,38 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Amenities",
             "target_es": "Servicios",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Downtown Orlando",
             "target_es": "Centro de Orlando",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Housing",
             "target_es": "Alojamiento",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Move-In",
             "target_es": "Mudarse",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Profile",

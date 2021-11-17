@@ -26,22 +26,32 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Transportation",
             "target_es": "Transporte",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Campus Map",
             "target_es": "Mapa del Campus",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Parking Availability",
             "target_es": "Disponibilidad de estacionamiento",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Downtown Orlando Map",

@@ -26,38 +26,56 @@ var linguJSON = {
         {
             "source": "Name",
             "target_es": "Nombre",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Major",
             "target_es": "Especialidad",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "College",
             "target_es": "Universidad",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Phone Number",
             "target_es": "Número de Teléfono",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Email",
             "target_es": "Correo Electrónico",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Profile",
             "target_es": "Perfil",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "College of Sciences",
             "target_es": "Universidad de Ciencias",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Digital Media Track – 2018 Catalog",
             "target_es": "Pista de medios digitales – Catálogo 2018",
+            "target_fr": "",
+            "target_de": ""
         },
         {
             "source": "Edit Preferences",
             "target_es": "Editar preferencias",
+            "target_fr": "",
+            "target_de": ""
         }
     ]
 };
