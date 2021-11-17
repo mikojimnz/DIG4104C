@@ -109,7 +109,7 @@
           <div class="btn-group filter-button-group" role="group" aria-label="Notification Sort" id="notification-sort">
             <button type="button" class="btn btn-default notification-sort" data-filter=".unread">Unread</button>
             <button type="button" class="btn btn-default notification-sort" data-filter=".events">Events</button>
-            <button type="button" class="btn btn-default notification-sort" data-filter="*">All</button>
+            <button type="button" class="btn btn-default notification-sort btn-init" data-filter="*">All</button>
           </div>
         </div>
       </div>
@@ -215,4 +215,18 @@
 <script src="../locales/notifications.js"></script>
 <script src="../scripts/lingumania.js"></script>
 <script src="../scripts/app.js"></script>
+<script>
+  /* Workaround for #18 Isotope list groups colliding */
+
+  var triggered = false;
+
+  $(window).on("scroll mouseover", function() {
+      if (triggered) {
+          return;
+      } else {
+          $(".btn-init").trigger("click");
+          triggered = true;
+      }
+  });
+</script>
 </html>
