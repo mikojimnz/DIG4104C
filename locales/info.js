@@ -26,44 +26,44 @@ var linguJSON = {
         {
             "source": "Safety & Info",
             "target_es": "Seguridad & Info",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Sécurité et Informations",
+            "target_de": "Sicherheit & Infos"
         },
         {
             "source": "Home",
             "target_es": "Casa",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Accueil",
+            "target_de": "Heim"
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Liens rapides",
+            "target_de": "Schnelllinks"
         },
         {
             "source": "Report Incident/Issue",
             "target_es": "Informar Incidente / Problema",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Signaler un incident/un problème",
+            "target_de": "Vorfall/Problem melden"
         },
         {
             "source": "Well-Being",
             "target_es": "Bienestar",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Bien-être",
+            "target_de": "Wohlbefinden"
         },
         {
             "source": "Safety",
             "target_es": "La seguridad",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Sécurité",
+            "target_de": "Sicherheit"
         },
         {
             "source": "Phonebook",
             "target_es": "Directorio telefónico",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Annuaire téléphonique",
+            "target_de": "Telefonbuch"
         },
         {
             "source": "Profile",

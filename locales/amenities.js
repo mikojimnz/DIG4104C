@@ -26,38 +26,38 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Accueil",
+            "target_de": "Heim"
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Liens rapides",
+            "target_de": "Schnelllinks"
         },
         {
             "source": "Amenities",
             "target_es": "Servicios",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Agréments",
+            "target_de": "Ausstattung"
         },
         {
             "source": "Downtown Orlando",
             "target_es": "Centro de Orlando",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Centre-ville d'Orlando",
+            "target_de": "Innenstadt von Orlando"
         },
         {
             "source": "Housing",
             "target_es": "Alojamiento",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Logements",
+            "target_de": "Gehäuse"
         },
         {
             "source": "Move-In",
             "target_es": "Mudarse",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Emménager",
+            "target_de": "Einziehen"
         },
         {
             "source": "Profile",

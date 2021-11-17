@@ -26,86 +26,80 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Accueil",
+            "target_de": "Heim"
         },
         {
             "source": "Academics",
             "target_es": "Académicos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Academics",
+            "target_de": "Akademiker"
         },
         {
             "source": "Grade",
             "target_es": "Nota",
-            "target_fr": "",
+            "target_fr": "Classes",
             "target_de": ""
         },
         {
             "source": "Grades",
             "target_es": "Notas",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Notes",
+            "target_de": "Noten"
         },
         {
             "source": "Holds & To Dos",
             "target_es": "Retenciones y cosas por hacer",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Prises et tâches",
+            "target_de": "Hält & To Dos"
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
-            "target_fr": "",
-            "target_de": ""
-        },
-        {
-            "source": "Knights Email",
-            "target_es": "Correo electrónico de Knights",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Liens rapides",
+            "target_de": "Schnelllinks"
         },
         {
             "source": "Library",
             "target_es": "La Biblioteca",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Bibliothèque",
+            "target_de": "Bücherei"
         },
         {
             "source": "Course Search",
             "target_es": "Búsqueda de Cursos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Recherche de cours",
+            "target_de": "Kurssuche"
         },
         {
             "source": "Student Services",
             "target_es": "Servicios para Estudiantes",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Services aux étudiants",
+            "target_de": "Studenten Service"
         },
         {
             "source": "Holds",
             "target_es": "Sostiene",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Tient",
+            "target_de": "Hält"
         },
         {
             "source": "No Holds",
             "target_es": "No sostiene",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Aucune retenue",
+            "target_de": "Keine Vormerkungen"
         },
         {
             "source": "To Dos",
             "target_es": "Que hacer",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "À faire",
+            "target_de": "Zu Dos"
         },
         {
             "source": "COVID Training Module",
             "target_es": "Módulo de formación COVID",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Module de formation COVID",
+            "target_de": "COVID-Schulungsmodul"
         },
         {
             "source": "Profile",

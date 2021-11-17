@@ -26,56 +26,56 @@ var linguJSON = {
         {
             "source": "Home",
             "target_es": "Casa",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Accueil",
+            "target_de": "Heim"
         },
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Liens rapides",
+            "target_de": "Schnelllinks"
         },
         {
             "source": "Transportation",
             "target_es": "Transporte",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Transport",
+            "target_de": "Transport"
         },
         {
             "source": "Campus Map",
             "target_es": "Mapa del Campus",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Plan du campus",
+            "target_de": "Campusplan"
         },
         {
             "source": "Parking Availability",
             "target_es": "Disponibilidad de estacionamiento",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Parking Availability",
+            "target_de": "Verfügbarkeit von Parkplätzen"
         },
         {
             "source": "Downtown Orlando Map",
             "target_es": "Mapa del centro de Orlando",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Carte du centre-ville d'Orlando",
+            "target_de": "Karte der Innenstadt von Orlando"
         },
         {
             "source": "Shuttles",
             "target_es": "Lanzaderas",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Navettes",
+            "target_de": "Shuttles"
         },
         {
             "source": "Transit",
             "target_es": "Tránsito",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Transit",
+            "target_de": "Transit"
         },
         {
             "source": "UCF Parking Services",
             "target_es": "Servicios de estacionamiento de UCF",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Services de stationnement UCF",
+            "target_de": "UCF-Parkservice"
         },
         {
             "source": "Profile",

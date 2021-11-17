@@ -26,74 +26,74 @@ var linguJSON = {
         {
             "source": "Traffic Reported",
             "target_es": "Tráfico reportado",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Trafic signalé",
+            "target_de": "Traffic Reported"
         },
         {
             "source": "47 Minute Commute",
             "target_es": "Viaje de 47 minutos",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "47 minutes de trajet",
+            "target_de": "47 Minuten Pendeln"
         },
         {
             "source": "Learn More",
             "target_es": "Aprender Más",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Apprendre encore plus",
+            "target_de": "Erfahren Sie mehr"
         },
         {
             "source": "Withdraw Deadline Approaching",
             "target_es": "Se acerca la fecha límite de retiro",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "La date limite de retrait approche",
+            "target_de": "Einzugsfrist rückt näher"
         },
         {
             "source": "October 29",
             "target_es": "29 de octubre",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "29 octobre",
+            "target_de": "29. Oktober"
         },
         {
             "source": "Schedule",
             "target_es": "Horario",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Calendrier",
+            "target_de": "Zeitlicher Ablauf"
         },
         {
             "source": "Up Next",
             "target_es": "A Continuación",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Suivant",
+            "target_de": "Als nächstes"
         },
         {
             "source": "Class",
             "target_es": "Clase",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Classer",
+            "target_de": "Klasse"
         },
         {
             "source": "Location",
             "target_es": "Ubicación",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Emplacement",
+            "target_de": "Standort"
         },
         {
             "source": "Room",
             "target_es": "Habitación",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Pièce",
+            "target_de": "Zimmer"
         },
         {
             "source": "Travel Time",
             "target_es": "Tiempo de Viaje",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Temps de voyage",
+            "target_de": "Reisezeit"
         },
         {
             "source": "Time",
             "target_es": "Tiempo",
-            "target_fr": "",
-            "target_de": ""
+            "target_fr": "Temps",
+            "target_de": "Zeit"
         },
         {
             "source": "Profile",
