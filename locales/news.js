@@ -86,7 +86,7 @@ var linguJSON = {
         {
             "source": "Day ago",
             "target_es": "hace días",
-        },
+        }
     ]
 };
        

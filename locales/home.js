@@ -95,7 +95,7 @@ var linguJSON = {
         {
             "source": "Grades",
             "target_es": "Notas",
-        },
+        }
     ]
 };
        

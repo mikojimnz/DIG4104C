@@ -99,6 +99,10 @@ var linguJSON = {
             "source": "Sports",
             "target_es": "Deportes",
         },
+        {
+            "source": "1 hour ago",
+            "target_es": "1 hora antes",
+        }
     ]
 };
        

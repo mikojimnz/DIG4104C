@@ -58,11 +58,7 @@ var linguJSON = {
         {
             "source": "Edit Preferences",
             "target_es": "Editar preferencias",
-        },
-        {
-            "source": "",
-            "target_es": "",
-        },
+        }
     ]
 };
        

@@ -34,7 +34,7 @@ var linguJSON = {
         {
             "source": "Quick Links",
             "target_es": "Enlaces rápidos",
-        },
+        }
     ]
 };
        
