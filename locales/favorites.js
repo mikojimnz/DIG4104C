@@ -23,7 +23,7 @@ var linguJSON = {
         }
     ],
     "translated_segments": [
-        
+
     ]
 };
        

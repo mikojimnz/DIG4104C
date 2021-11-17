@@ -22,8 +22,19 @@ var linguJSON = {
             "url_pattern": "?"
         }
     ],
-    "translated_segments": [
-        
+    "translated_segments": [ 
+        {
+            "source": "Safety & Info",
+            "target_es": "Seguridad & Info",
+        },
+        {
+            "source": "Home",
+            "target_es": "Casa",
+        },
+        {
+            "source": "Quick Links",
+            "target_es": "Enlaces rápidos",
+        },
     ]
 };
        

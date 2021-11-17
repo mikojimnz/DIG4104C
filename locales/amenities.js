@@ -23,7 +23,18 @@ var linguJSON = {
         }
     ],
     "translated_segments": [
-        
+        {
+            "source": "Home",
+            "target_es": "Casa",
+        },
+        {
+            "source": "Quick Links",
+            "target_es": "Enlaces rápidos",
+        },
+        {
+            "source": "Amenities",
+            "target_es": "Servicios",
+        }
     ]
 };
        
