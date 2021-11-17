@@ -27,7 +27,7 @@ var linguJSON = {
             "source": "Traffic Reported",
             "target_es": "Tráfico reportado",
             "target_fr": "Trafic signalé",
-            "target_de": "Traffic Reported"
+            "target_de": "Verkehr gemeldet"
         },
         {
             "source": "47 Minute Commute",
